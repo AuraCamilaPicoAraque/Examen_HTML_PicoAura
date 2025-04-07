@@ -1,6 +1,7 @@
 /*Proyecto desarrollado por Aura Pico CC: 1097498480*/
 html , body {
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 
@@ -210,5 +211,84 @@ html , body {
 }
 
 
+
+
+/*  SECCION 3  --- APARTADO DEL QUE ES */
+
+
+.seccion3__apartado3__quees {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+    gap: 2vh;
+    position: relative;
+    top: 10vh;  
+    left: -30vw;  
+
+}
+
+.seccion3__apartado3__que {
+
+    font-size: 5vh;
+    font-family: sans-serif;
+    position: relative;
+    top: -4vh;
+    left: 31vw;
+}
+
+
+.seccion3__apartado3__texto1 , .seccion3__apartado3__texto2 {
+    font-size: 3vh;
+    font-family: sans-serif;
+    line-height: 1.4;
+    position: relative;
+    top: 2vh;
+    left: 8vw;
+}
+
+.seccion3__apartado3__texto2 {
+    position: relative;
+    top: 4vh;
+}
+
+
+.imagendineroparacaidas {
+    width: 50vw;
+    height:70vh;
+    position: relative;
+    top: -64vh;
+    left: 75vw;
+
+}
+
+
+.seccion3__apartado3__texto3 {
+    position: relative;
+    top: 9vh;
+    left: 8vw;
+    font-size: 1.9vh;
+    font-family: sans-serif;
+}
+
+
+
+
+.rayitaabajo {
+    width: 1.5vw;
+    height: 1.5vh;
+
+    position: relative;
+    top: -63vh;
+    left: 57vw;
+}
+
+
+a {
+    text-decoration: none; 
+    color: inherit; 
+    font-family: inherit; 
+}
 
 /*Proyecto desarrollado por Aura Pico CC: 1097498480*/
