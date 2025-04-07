@@ -1,0 +1,163 @@
+/*Proyecto desarrollado por Aura Pico CC: 1097498480*/
+html , body {
+    margin: 0;
+}
+
+
+.seccion1__cajaazul {
+
+    background-color: rgb(49, 102, 214);
+    width: 100vw;
+    height: 14vh;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10vh;
+    overflow-y: hidden;
+    z-index: 1;
+    
+}
+
+.texto1 {
+    font-size: 2.5vh;
+    font-family: sans-serif;
+    color: white;
+
+    position: relative;
+    left: -21vw;
+}
+
+.texto2 {
+    font-size: 2.5vh;
+    font-family: sans-serif;
+    color: white;
+
+    position: relative;
+    left: -12vw;
+}
+
+.img {
+    width: 14vw;
+    height: 10vh;
+
+    position: relative;
+    left: -4vw;
+
+}
+
+
+.texto3 {
+    font-size: 2.5vh;
+    font-family: sans-serif;
+    color: white;
+
+    position: relative;
+    left: 5vw;
+}
+
+.buton {
+    background-color: white;
+    border-radius: 2.7vh;
+
+    font-size: 1.5vh;
+    font-family: sans-serif;
+    font-weight: bolder;
+
+    width: 7vw;
+    height: 5vh;
+
+    position: relative;
+    left: 15vw;
+}
+
+/*  SECCION 2  --- PARTE DE ABAJO DEL TEXTO AZUL */
+
+.seccion2__Paneldeconsulta {
+    background: url(../img/Fondo@2x.png);
+
+    width: 100vw;
+    height: 100vh;
+
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-top: 10vh;
+    overflow: hidden;
+}
+
+
+.seccion2__Bloquedeconsulta {
+    background-color: white;
+    border: 0.1vh solid rgb(212, 212, 212);
+    border-radius: 3vh;
+
+    position: relative;
+
+    width: 28vw;
+    height: 70vh;
+    top: 13vh;
+    left: 5vw;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+
+    padding: 2vh 2vw;
+
+}
+
+
+.seccion2__texto1 , .seccion2__texto2 {
+    display: flex;
+    justify-content: center;
+}
+    
+.seccion2__texto1 {
+    font-family: sans-serif;
+    font-size: 3.5vh;
+    text-align: center;
+
+}
+
+
+.seccion2__texto2 {
+    font-family: sans-serif;
+    font-size: 1.5vh;
+    text-align: center;
+}
+
+
+.seccion2__texto3__Bloquedeinput , .seccion2__texto5__Bloquedeinput , .seccion2__texto6__Bloquedeinput , .seccion2__texto7__Bloquedeinput , .seccion2__texto8__Bloquedeinput {
+    font-size: 1.5vh;
+    font-family: sans-serif;
+    margin-bottom: -0.8vh;
+}
+
+
+.seccion2__inputselector , .seccion2__input3 , .seccion2__input4 , .seccion2__input5 , .seccion2__input6 {
+
+    border-radius: 0.5vh;
+    width: 53vh;
+    height: 4.9vh;
+
+
+}
+
+.buttonconsult {
+    border-radius: 1.5vh;
+    border: 0.1vh solid rgb(46, 86, 173);
+    width: 9vw;
+    height: 5vh;
+
+    font-size: 1.9vh;
+    color: white;
+    background-color: rgb(49, 102, 214);
+
+    position: relative;
+    left: 10vw;
+    top: 1.5vh;
+}
+
+
+/*Proyecto desarrollado por Aura Pico CC: 1097498480*/
