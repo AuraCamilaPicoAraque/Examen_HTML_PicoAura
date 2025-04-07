@@ -39,11 +39,11 @@ html , body {
 }
 
 .img {
-    width: 14vw;
-    height: 10vh;
+    width: 16vw;
+    height: 11vh;
 
     position: relative;
-    left: -4vw;
+    left: -2vw;
 
 }
 
@@ -54,7 +54,7 @@ html , body {
     color: white;
 
     position: relative;
-    left: 5vw;
+    left: 6vw;
 }
 
 .buton {
@@ -69,8 +69,15 @@ html , body {
     height: 5vh;
 
     position: relative;
-    left: 15vw;
+    left: 20vw;
 }
+
+
+
+
+
+
+
 
 /*  SECCION 2  --- PARTE DE ABAJO DEL TEXTO AZUL */
 
@@ -158,6 +165,50 @@ html , body {
     left: 10vw;
     top: 1.5vh;
 }
+
+
+.seccion2__textos {
+
+    position: relative;
+    left: 25vw;
+    top: -35vh;
+
+    display: flex;
+    text-align:center;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+
+.seccion2__textos__texto1 {
+    font-size: 4.5vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: lighter;
+}
+
+.seccion2__textos__texto2 {
+    font-size: 2.5vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-weight: lighter;
+    color: rgba(48, 48, 48, 0.829);
+}
+
+
+.buttonconocermas {
+
+    width: 10vw;
+    height: 5vh;
+    position: relative;
+    left: 45vw;
+    top: 3vh;
+
+    font-size: 1.9vh;
+    color: white;
+    border-radius: 1.5vh;
+    border: 0.1vh solid rgb(46, 86, 173);
+    background-color: rgb(26, 98, 255);
+}
+
 
 
 /*Proyecto desarrollado por Aura Pico CC: 1097498480*/
